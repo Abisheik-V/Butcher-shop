@@ -2,13 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Butcher shop/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="https://img.freepik.com/premium-vector/butcher-shop-vector-logo-template_43582-127.jpg?semt=ais_hybrid&w=740&q=80" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shop</title>
-    <script type="module" crossorigin src="/Butcher shop/assets/index-DwOcrAUf.js"></script>
-    <link rel="stylesheet" crossorigin href="/Butcher shop/assets/index-R-y5qaA0.css">
+    <title>P&S Shop</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script>
+      (function() {
+        var l = window.location;
+        var params = new URLSearchParams(l.search);
+        var p = params.get('p');
+        if (p) {
+          var newUrl = l.origin + p + (params.get('q') || "") + l.hash;
+          window.history.replaceState(null, "", newUrl);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/Butcher-shop/assets/index-Dbi4KVT3.js"></script>
+    <link rel="stylesheet" crossorigin href="/Butcher-shop/assets/index-R-y5qaA0.css">
   </head>
   <body>
     <div id="root"></div>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+        
